@@ -1,0 +1,42 @@
+.courses-btn {
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 182px;
+}
+
+.fh5co-cta {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 7em 0;
+    position: relative;
+  }
+  @media screen and (max-width: 768px) {
+    .fh5co-cta {
+      padding: 3em 0;
+    }
+  }
+  .fh5co-cta .overlay {
+    
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .fh5co-cta .container {
+    position: relative;
+    z-index: 2;
+  }
+  .fh5co-cta p, .fh5co-cta h3 {
+    color: #fff;
+  }
+  .fh5co-cta p:last-child {
+    margin-bottom: 0;
+  }
+  .fh5co-cta .btn {
+    color: #fff;
+  }
+  
